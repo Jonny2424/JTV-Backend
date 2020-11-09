@@ -65,15 +65,16 @@ Estimated time frames of when we want certain goals to be completed by.
 | Project Approval | MVP | Not Complete | 11/9/20 | 11/9/20 |
 | Construct Migration Files | MVP | Not Complete | 11/9/20 |  |
 | Create Models  | MVP | Not Complete | 11/10/20 |  |
-| Test MVC  | MVP | Not Complete | 11/10/20 |  |
 | Render App in Browser | MVP | Not Complete | 11/10/20 |  |
-| Test MVC  | MVP | Not Complete | 10/3/20 |  |
-| Complete CRUD for User Data  | MVP | Not Complete | 10/6/20 |  |
-| Complete CRUD for services  | MVP | Not Complete | 10/6/20 |  |
-| Deploy to Heroku  | MVP | Not Complete | 10/6/20 |  |
-| Encrypted Passwords  | PostMVP | Not Complete | 10/7/20 |  |
-| Social Media Link | PostMVP | Not Complete | 10/8/20 |  |
-| Improve Overall Styling | PostMVP | Not Complete | 10/8/20 |  |
+| Test MVC  | MVP | Not Complete | 11/13/20 |  |
+| Complete CRUD for User Data  | MVP | Not Complete | 11/13/20 |  |
+| Complete CRUD for services  | MVP | Not Complete | 11/13/20 |  |
+| Deploy to Heroku  | MVP | Not Complete | 11/13/20 |  |
+| Encrypted Passwords  | PostMVP | Not Complete | 11/16/20 |  |
+| Social Media Link | PostMVP | Not Complete | 11/16/20 |  |
+| Improve Overall Styling | PostMVP | Not Complete | 11/16/20 |  |
+| Create Slide show | PostMVP | Not Complete | 11/16/20 |  |
+| Add Map | PostMVP | Not Complete | 11/16/20|  |
 
 
 ## Code Snippet  
