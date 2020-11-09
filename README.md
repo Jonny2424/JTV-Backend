@@ -1,4 +1,4 @@
-# JTVAutoDetailing
+# JTV Auto Detailing App
 
 ## Project Description
 
