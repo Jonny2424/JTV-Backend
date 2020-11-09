@@ -11,13 +11,17 @@ JTV Auto Detailing is a site for car owners who have a passion for protecting th
 Links to navigate to the project repository and deployed website link. 
 
 - GitHub Repo = [JTV Auto Detailing Repo](https://github.com/Jonny2424/JTVAutoDetailing)
-- Deployment = [TBH]() 
+- Deployment = [TBA]() 
 
 ## Wireframes
 
 Inserted below is a navigational link to a PDF slideshow of our wireframes for our project.
 
 - Wireframes and Website Architecture = [JTV Auto Detailing Wireframes](https://docs.google.com/presentation/d/1hKDQry8jhGIIsAzt4RU7GAvs33cfLsOFxE6a6iSOaH0/edit?usp=sharing)
+
+## ERD
+
+![ERD of project](https://imgur.com/WK1YLJb)
 
 ## User Stories
 
