@@ -37,13 +37,13 @@ Below are links to navigate to our project repository and deployed website link.
 #### MVP
 - Each page can render properly.
 - User can request services. 
-- User can submit their car.
-- Admin can has full control over data.
+- User can submit car data.
+- Admin has full control over data.
 - Admin can login with correct credentials.
 - Have a working full-stack application.
 - Construct app to have a MVC structure: Model, View, Controllers.
 - Complete CRUD functionality for two models. 
-- Allow communication between 2 models.
+- Allow communication between models.
 - Have at least 50 GitHub commits.
 - Deploy website on Heroku.
 
