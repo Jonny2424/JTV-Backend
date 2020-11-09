@@ -17,7 +17,7 @@ Links to navigate to the project repository and deployed website link.
 
 Inserted below is a navigational link to a PDF slideshow of our wireframes for our project.
 
-- Wireframes and Website Architecture = [JTV Auto Detailing Wireframes](https://docs.google.com/presentation/d/1_BFz0_28KXCFrs8RDh_PVk9y6f5yklLjPDWCd1eebL0/edit?usp=sharing)
+- Wireframes and Website Architecture = [JTV Auto Detailing Wireframes](https://docs.google.com/presentation/d/1hKDQry8jhGIIsAzt4RU7GAvs33cfLsOFxE6a6iSOaH0/edit?usp=sharing)
 
 ## User Stories
 
@@ -28,9 +28,9 @@ Below are links to navigate to our project repository and deployed website link.
 	3. As a user I want to view the previous work completed by the detailer, so I can see the quality of their work.
 	4. As a user I want to be able to upload my car information, so the detailer will know what they have to work with.
 	5. As a user I want to be able to contact the deatiler, so I can share any important information before dropping my car off.
-  6. As an admin I want to be able to log in, view, and alter requested services.
+  	6. As an admin I want to be able to log in, view, and alter requested services.
 
-#### MVP for Gear Head Garage
+#### MVP
 - Each page can render properly.
 - User can request services. 
 - User can submit their car.
@@ -63,14 +63,13 @@ Estimated time frames of when we want certain goals to be completed by.
 | Create Models  | MVP | Not Complete | 11/10/20 |  |
 | Test MVC  | MVP | Not Complete | 11/10/20 |  |
 | Render App in Browser | MVP | Not Complete | 11/10/20 |  |
-| Test MVC  | MVP | Not Complete | 10/3/20 | 10/4/20 |
-| Complete CRUD for Models  | MVP | Not Complete | 10/6/20 | 10/5/20 |
-| Deploy to Heroku  | MVP | Not Complete | 10/6/20 | 10/6/20 |
-| Encrypted Passwords  | PostMVP | Not Complete | 10/7/20 | 10/5/20 |
-| Authorization Flow add car/personal garage  | PostMVP | Not Complete | 10/7/20 | 10/6/20 |
-| Showroom Styling  | PostMVP | Not Complete | 10/7/20 | 10/6/20 |
-| Social Media Link | PostMVP | Not Complete | 10/8/20 | 10/8/20 |
-| Improve Overall Styling | PostMVP | Not Complete | 10/8/20 | 10/8/20 |
+| Test MVC  | MVP | Not Complete | 10/3/20 |  |
+| Complete CRUD for User Data  | MVP | Not Complete | 10/6/20 |  |
+| Complete CRUD for services  | MVP | Not Complete | 10/6/20 |  |
+| Deploy to Heroku  | MVP | Not Complete | 10/6/20 |  |
+| Encrypted Passwords  | PostMVP | Not Complete | 10/7/20 |  |
+| Social Media Link | PostMVP | Not Complete | 10/8/20 |  |
+| Improve Overall Styling | PostMVP | Not Complete | 10/8/20 |  |
 
 
 ## Code Snippet  
