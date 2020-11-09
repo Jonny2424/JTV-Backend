@@ -59,16 +59,11 @@ Estimated time frames of when we want certain goals to be completed by.
 | Component | MVP/PostMVP | Status | Goal Date for Completion | Completed By Date |
 | --- | :---: | :---: | :---: | :---: |
 | Project Approval | MVP | Not Complete | 11/9/20 | 11/9/20 |
-
 | Construct Migration Files | MVP | Not Complete | 11/9/20 |  |
-
 | Create Models  | MVP | Not Complete | 11/10/20 |  |
-
 | Test MVC  | MVP | Not Complete | 11/10/20 |  |
-
 | Render App in Browser | MVP | Not Complete | 11/10/20 |  |
 | Test MVC  | MVP | Not Complete | 10/3/20 | 10/4/20 |
-
 | Complete CRUD for Models  | MVP | Not Complete | 10/6/20 | 10/5/20 |
 | Deploy to Heroku  | MVP | Not Complete | 10/6/20 | 10/6/20 |
 | Encrypted Passwords  | PostMVP | Not Complete | 10/7/20 | 10/5/20 |
