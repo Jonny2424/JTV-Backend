@@ -50,7 +50,7 @@ Below are links to navigate to our project repository and deployed website link.
 
 #### PostMVP 
 - Add encrypted password for admin
-- Add slide show to show past work 
+- Add slide show for previous work
 - Have social media links actually navigate to a JTV Auto Detailing social media page.
 - Improve overall styling on website. 
 - Incorporate a map so users can view distance from detailer.
@@ -78,7 +78,7 @@ Estimated time frames of when we want certain goals to be completed by.
 
 ## Code Snippet  
 
-We are proud of this code... 
+I am proud of this code... 
 
 ```
 Insert code here
