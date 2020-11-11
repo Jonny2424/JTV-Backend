@@ -7,7 +7,7 @@ module.exports = {
         work_status_description: "assigned"
       },
       {
-        request_status_description: "completed"
+        work_status_description: "completed"
       }
     ], {});
   },
