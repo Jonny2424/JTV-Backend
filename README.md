@@ -21,7 +21,7 @@ Inserted below is a navigational link to a PDF slideshow of our wireframes for o
 
 ## ERD
 
-![ERD of project](https://i.imgur.com/PjZjIdk.png)
+![ERD of project](https://i.imgur.com/aTd8hUC.png)
 
 ## User Stories
 
