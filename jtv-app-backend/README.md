@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# JTV Auto Detailing App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+The goal of this project was to make a full stack app using tools learned from this SEI.  
 
-In the project directory, you can run:
+JTV Auto Detailing is a site for car owners who have a passion for protecting their vehicle. We at JTV share that same passion and work to preserve the beauty of your ride. We offer comprehensive yet flexible detailing, protection, and customization services to suit our clients’ needs, and we do it with unequaled quality, passion, and professionalism. Whether you are interested in a restorative level of detailing, looking to restore the original paint on your classic muscle car, or you simply wish to preserve and protect the finish on your daily driver, JTV Auto Detailing will meet your goals and expectations with passion, precision, and perfection! We look forward to exceeding your expectations
 
-### `npm start`
+## Project Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Links to navigate to the project repository and deployed website link. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- GitHub Repo = [JTV Auto Detailing Repo](https://github.com/Jonny2424/JTVAutoDetailing)
+- Deployment = [TBA]() 
 
-### `npm test`
+## Wireframes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inserted below is a navigational link to a PDF slideshow of our wireframes for our project.
 
-### `npm run build`
+- Wireframes and Website Architecture = [JTV Auto Detailing Wireframes](https://docs.google.com/presentation/d/1hKDQry8jhGIIsAzt4RU7GAvs33cfLsOFxE6a6iSOaH0/edit?usp=sharing)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ERD
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![ERD of project](https://i.imgur.com/aTd8hUC.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## User Stories
 
-### `npm run eject`
+Below are links to navigate to our project repository and deployed website link. 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+	1. As a user I want to be able to access the JTV Auto Detailing website to request a service to have my car detailed.
+	2. As a user want to be able to view the different detail packages, so I can choose the best protction in my budget.
+	3. As a user I want to view the previous work completed by the detailer, so I can see the quality of their work.
+	4. As a user I want to be able to upload my car information, so the detailer will know what they have to work with.
+	5. As a user I want to be able to contact the deatiler, so I can share any important information before dropping my car off.
+  	6. As an admin I want to be able to log in, view, and alter requested services.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### MVP
+- Each page can render properly.
+- User can request services. 
+- User can submit car data.
+- Admin has full control over data.
+- Admin can login with correct credentials.
+- Have a working full-stack application.
+- Construct app to have a MVC structure: Model, View, Controllers.
+- Complete CRUD functionality for two models. 
+- Allow communication between models.
+- Have at least 50 GitHub commits.
+- Deploy website on Heroku.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### PostMVP 
+- Add encrypted password for admin
+- Add slide show for previous work
+- Have social media links actually navigate to a JTV Auto Detailing social media page.
+- Improve overall styling on website. 
+- Incorporate a map so users can view distance from detailer.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Time Frames
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Estimated time frames of when we want certain goals to be completed by. 
 
-### Code Splitting
+| Component | MVP/PostMVP | Status | Goal Date for Completion | Completed By Date |
+| --- | :---: | :---: | :---: | :---: |
+| Project Approval | MVP | Not Complete | 11/9/20 | 11/9/20 |
+| Create All Tables | MVP | Not Complete | 11/11/20 |  |
+| Add Relationships to Tables | MVP | Not Complete | 11/11/20 |  |
+| Render Contact form in Browser | MVP | Not Complete | 11/11/20 |  |
+| Test MVC  | MVP | Not Complete | 11/13/20 |  |
+| Complete CRUD for Tables  | MVP | Not Complete | 11/13/20 |  |
+| Deploy to Heroku  | MVP | Not Complete | 11/13/20 |  |
+| Encrypted Passwords  | PostMVP | Not Complete | 11/16/20 |  |
+| Social Media Link | PostMVP | Not Complete | 11/16/20 |  |
+| Improve Overall Styling | PostMVP | Not Complete | 11/16/20 |  |
+| Create Slide show | PostMVP | Not Complete | 11/16/20 |  |
+| Add Map | PostMVP | Not Complete | 11/16/20|  |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Code Snippet  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I am proud of this code... 
 
-### Making a Progressive Web App
+```
+Insert code here
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
