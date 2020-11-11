@@ -14,7 +14,7 @@ module.exports = {
       {
         work_type_description: "gold",
         work_type_cost: 200
-      },
+      }
     ], {});
   },
 

@@ -14,7 +14,7 @@ module.exports = {
       },
       {
         request_status_description: "denied"
-      },
+      }
     ], {});
   },
 

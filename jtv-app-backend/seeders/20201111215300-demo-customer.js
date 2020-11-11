@@ -20,7 +20,7 @@ module.exports = {
         customer_Lname: "Doe",
         customer_email: "JDoe@gmail.com",
         customer_phone: "444-444-4444"
-      },
+      }
     ], {});
   },
 

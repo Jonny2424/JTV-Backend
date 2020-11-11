@@ -38,7 +38,7 @@ module.exports = {
         requestStatusId: 1,
         requestTypeId: 1,
         workTypeId: 3
-      },
+      }
     ], {});
   },
 
