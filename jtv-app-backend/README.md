@@ -65,6 +65,7 @@ Estimated time frames of when we want certain goals to be completed by.
 | Project Approval | MVP | Complete | 11/9/20 | 11/9/20 |
 | Create All Tables | MVP | Complete | 11/11/20 | 11/11/20 |
 | Add Relationships to Tables | MVP | Complete | 11/11/20 | 11/11/20 |
+| Get Auth working with an Admin Login | MVP |  Not Complete | 11/12/20 |  |
 | Render Contact form in Browser | MVP | Not Complete | 11/11/20 |  |
 | Test MVC  | MVP | Not Complete | 11/13/20 |  |
 | Complete CRUD for Tables  | MVP | Not Complete | 11/13/20 |  |
