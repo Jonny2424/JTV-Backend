@@ -6,7 +6,7 @@ const jwt = require('jsonwebtoken');
 const cors = require('cors');
 
 const app = express();
-// const routes = require('./routes');
+const routes = require('./routes');
 const constants = require('./constants');
 
 const corsOptions = {
@@ -36,7 +36,7 @@ const verifyToken = (req, res, next) => {
 }
 
 // app.use('/auth', routes.auth);
-// app.use('/city', routes.city);
+app.use('/request', routes.request);
 // app.use('/post/all', routes.post);
 // app.use('/post/city', routes.post);
 // app.use('/auth/verify', verifyToken, routes.auth);
