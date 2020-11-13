@@ -31,7 +31,8 @@ const signup = (req, res) => {
                 )
                
                 res.status(constants.SUCCESS).json({
-                    "token" : token
+                    "token" : token,
+                    "user": newUser
                 });
             })
             .catch(err => {
@@ -63,7 +64,8 @@ const login = (req, res) => {
                         }
                     )
                     res.status(constants.SUCCESS).json({
-                        "token" : token
+                        "token" : token,
+                        "user": foundUser
                     });
                 } else {
                     res.status(constants.BAD_REQUEST).send(`ERROR: Incorrect Username/Password`);
@@ -81,7 +83,7 @@ const login = (req, res) => {
 
 const verifyUser = (req, res) => {
     User.findByPk(req.user.id, {
-        attributes: ['id', 'username', 'updatedAt', 'email', 'name', 'img']
+        attributes: ['id', 'username', 'updatedAt']
     })
     .then(foundUser => {
         res.status(constants.SUCCESS).json(foundUser);
