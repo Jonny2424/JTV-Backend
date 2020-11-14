@@ -44,13 +44,13 @@ module.exports = {
       createdAt: {
         allowNull: false,
         defaultValue: new Date(),
-        type: Sequelize.DATE,
+        type: Sequelize.DATEONLY,
 
       },
       updatedAt: {
         allowNull: false,
         defaultValue: new Date(),
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       }
     });
   },
