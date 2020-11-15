@@ -30,37 +30,18 @@ const deleteRequest = (req, res) => {
         })
 }
 
-// const getRequestById = (req, res) => {
-//     let sort = 'DESC';
-//     if(req.query.sorted === 'asc')
-//         sort = 'ASC';
+const editRequest = (req, res) => {
+    Request.update(req.body, {
+        where: {
+            id: req.params.requestId
+        },
+        returning: true
+    })
+}
 
-//     Request.findByPk(req.params.request, {
-//         include: [
-//             {
-//                 model: Post,
-//                 attributes: ['id', 'title', 'body', 'img'],
-
-//             }
-//         ],
-//         order: [
-//             [{model: Post}, 'createdAt', sort]
-//         ]
-//     })
-//     .then(foundCity => {
-//         if(foundCity === null){
-//             res.status(constants.BAD_REQUEST).send('ERROR: Incorrect City Id')
-//         }else{
-//             res.status(constants.SUCCESS).json(foundCity)
-//         }
-//     })
-//     .catch(err => {
-//         res.status(constants.INTERNAL_SERVER_ERROR).send(`ERROR: ${err}`);
-//     })
-// }
 
 module.exports = {
     getAll,
-    deleteRequest
-    // getRequestById
+    deleteRequest,
+    editRequest
 }

@@ -4,6 +4,8 @@ const ctrl = require('../controllers');
 
 router.get('/all', ctrl.request.getAll);
 router.delete('/:requestId', ctrl.request.deleteRequest);
+router.put('/:requestId', ctrl.request.editRequest);
+
 // router.get('/:request', ctrl.request.getRequestById);
 
 module.exports = router;
