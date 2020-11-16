@@ -1,4 +1,3 @@
-// const Post = require('../models').Post;
 const Request = require('../models').Request;
 
 const constants = require('../constants');
