@@ -35,6 +35,18 @@ const editRequest = (req, res) => {
             id: req.params.requestId
         },
         returning: true
+    }).then(newRequest => {
+        res.status(constants.SUCCESS).json(newRequest)
+    })
+}
+
+const createRequest = (req, res) => {
+    Request.create(req.body)
+    .then(newRequest => {
+        res.status(constants.SUCCESS).json(newRequest)
+    })
+    .catch(err => {
+        res.status(constants.INTERNAL_SERVER_ERROR).send(`ERROR: ${err}`);
     })
 }
 
@@ -42,5 +54,6 @@ const editRequest = (req, res) => {
 module.exports = {
     getAll,
     deleteRequest,
-    editRequest
+    editRequest,
+    createRequest
 }

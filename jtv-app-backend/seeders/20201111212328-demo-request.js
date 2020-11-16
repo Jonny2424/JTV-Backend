@@ -11,6 +11,7 @@ module.exports = {
         request_car_year: 1998,
         request_car_make: "Honda",
         request_car_model: "Prelude",
+        request_date: "11-15-2020",
         requestStatusId: 1,
         requestTypeId: 1,
         workTypeId: 1
@@ -23,6 +24,7 @@ module.exports = {
         request_car_year: 2005,
         request_car_make: "Mercury",
         request_car_model: "Cougar",
+        request_date: "11-16-2020",
         requestStatusId: 1,
         requestTypeId: 1,
         workTypeId: 2
@@ -35,6 +37,7 @@ module.exports = {
         request_car_year: 2020,
         request_car_make: "Toyota",
         request_car_model: "Supra",
+        request_date: "11-17-2020",
         requestStatusId: 1,
         requestTypeId: 1,
         workTypeId: 3

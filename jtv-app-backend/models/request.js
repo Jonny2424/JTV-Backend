@@ -23,6 +23,7 @@ module.exports = (sequelize, DataTypes) => {
     request_car_year: DataTypes.INTEGER,
     request_car_make: DataTypes.STRING,
     request_car_model: DataTypes.STRING,
+    request_date: DataTypes.STRING,
     requestStatusId: DataTypes.INTEGER,
     requestTypeId: DataTypes.INTEGER,
     workTypeId: DataTypes.INTEGER,

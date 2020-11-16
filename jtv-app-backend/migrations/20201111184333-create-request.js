@@ -32,6 +32,9 @@ module.exports = {
       request_car_model: {
         type: Sequelize.STRING
       },
+      request_date: {
+        type: Sequelize.STRING
+      },
       requestStatusId: {
         type: Sequelize.INTEGER
       },
@@ -45,7 +48,6 @@ module.exports = {
         allowNull: false,
         defaultValue: new Date(),
         type: Sequelize.DATEONLY,
-
       },
       updatedAt: {
         allowNull: false,
