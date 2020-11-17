@@ -16,17 +16,17 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Request.init({
-    request_Fname: DataTypes.STRING,
-    request_Lname: DataTypes.STRING,
-    request_email: DataTypes.STRING,
-    request_msg: DataTypes.STRING,
-    request_car_year: DataTypes.INTEGER,
-    request_car_make: DataTypes.STRING,
-    request_car_model: DataTypes.STRING,
-    request_date: DataTypes.STRING,
-    requestStatusId: DataTypes.INTEGER,
-    requestTypeId: DataTypes.INTEGER,
-    workTypeId: DataTypes.INTEGER,
+    fname: DataTypes.STRING,
+    lname: DataTypes.STRING,
+    email: DataTypes.STRING,
+    msg: DataTypes.STRING,
+    car_year: DataTypes.INTEGER,
+    car_make: DataTypes.STRING,
+    car_model: DataTypes.STRING,
+    date: DataTypes.STRING,
+    statusId: DataTypes.INTEGER,
+    typeId: DataTypes.INTEGER,
+    work_type_id: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'Request',
