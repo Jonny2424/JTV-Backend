@@ -11,7 +11,7 @@ const constants = require('./constants');
 
 
 const corsOptions = {
-    origin: ['http://localhost:3001'], // Surge link goes here.
+    origin: ['http://jtv-auto-detail.surge.sh'], // Surge link goes here.
     methods: "GET,POST,PUT,DELETE",
     credentials: true, //allows session cookies to be sent back and forth
     optionsSuccessStatus: 200 //legacy browsers
