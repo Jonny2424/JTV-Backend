@@ -8,11 +8,11 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      request_fname: {
+      requestFname: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      request_lname: {
+      requestLname: {
         type: Sequelize.STRING,
         allowNull: false,
       },

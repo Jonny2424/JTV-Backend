@@ -4,8 +4,8 @@ module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('requests', [
       {
-        request_fname: "Jon",
-        request_lname: "Vaflor",
+        requestFname: "Jon",
+        requestLname: "Vaflor",
         request_email: "jtv2610@gmail.com",
         request_msg: "Need a wash",
         request_car_year: 1998,
@@ -17,8 +17,8 @@ module.exports = {
         work_type_id: 1
       },
       {
-        request_fname: "Joe",
-        request_lname: "Smith",
+        requestFname: "Joe",
+        requestLname: "Smith",
         request_email: "JSmith@gmail.com",
         request_msg: "make my car shiny",
         request_car_year: 2005,
@@ -30,8 +30,8 @@ module.exports = {
         work_type_id: 1
       },
       {
-        request_fname: "Jane",
-        request_lname: "Doe",
+        requestFname: "Jane",
+        requestLname: "Doe",
         request_email: "JDoe@gmail.com",
         request_msg: "Fix these scratches",
         request_car_year: 2020,
