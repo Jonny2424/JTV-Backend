@@ -8,37 +8,37 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      requestFname: {
+      fname: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      requestLname: {
+      lname: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      request_email: {
+      email: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      request_msg: {
+      msg: {
         type: Sequelize.STRING
       },
-      request_car_year: {
+      car_year: {
         type: Sequelize.INTEGER
       },
-      request_car_make: {
+      car_make: {
         type: Sequelize.STRING
       },
-      request_car_model: {
+      car_model: {
         type: Sequelize.STRING
       },
-      request_date: {
+      date: {
         type: Sequelize.STRING
       },
-      request_status_id: {
+      status_id: {
         type: Sequelize.INTEGER
       },
-      request_type_id: {
+      type_id: {
         type: Sequelize.INTEGER
       },
       work_type_id: {
