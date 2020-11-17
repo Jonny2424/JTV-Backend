@@ -8,19 +8,19 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      customer_fname: {
+      fname: {
         type: Sequelize.STRING,
         allowNull: false
       },
-      customer_lname: {
+      lname: {
         type: Sequelize.STRING,
         allowNull: false
       },
-      customer_email: {
+      email: {
         type: Sequelize.STRING,
         allowNull: false
       },
-      customer_phone: {
+      phone: {
         type: Sequelize.STRING,
         allowNull: false
       },
