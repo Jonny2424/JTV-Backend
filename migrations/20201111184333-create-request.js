@@ -8,11 +8,11 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      request_Fname: {
+      request_fname: {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      request_Lname: {
+      request_lname: {
         type: Sequelize.STRING,
         allowNull: false,
       },
@@ -35,13 +35,13 @@ module.exports = {
       request_date: {
         type: Sequelize.STRING
       },
-      requestStatusId: {
+      request_status_id: {
         type: Sequelize.INTEGER
       },
-      requestTypeId: {
+      request_type_id: {
         type: Sequelize.INTEGER
       },
-      workTypeId: {
+      work_type_id: {
         type: Sequelize.INTEGER
       },
       created_at: {
