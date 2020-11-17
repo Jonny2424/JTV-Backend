@@ -27,6 +27,7 @@ const getProfile = (req, res) => {
         res.status(constants.SUCCESS).json(userProfile)
     })
     .catch(err => {
+        
         res.status(constants.INTERNAL_SERVER_ERROR).send(`ERROR: ${err}`);
     })
 }
