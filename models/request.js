@@ -10,9 +10,9 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Request.belongsTo(models.Request_Status, {foreignKey: "requestStatusId"})
-      Request.belongsTo(models.Request_Type, {foreignKey: "requestTypeId"})
-      Request.belongsTo(models.Work_Type, {foreignKey: "workTypeId"})
+      Request.belongsTo(models.Request_Status, {foreignKey: "status_id"})
+      Request.belongsTo(models.Request_Type, {foreignKey: "type_id"})
+      Request.belongsTo(models.Work_Type, {foreignKey: "work_type_id"})
     }
   };
   Request.init({
@@ -24,8 +24,8 @@ module.exports = (sequelize, DataTypes) => {
     car_make: DataTypes.STRING,
     car_model: DataTypes.STRING,
     date: DataTypes.STRING,
-    statusId: DataTypes.INTEGER,
-    typeId: DataTypes.INTEGER,
+    status_id: DataTypes.INTEGER,
+    type_id: DataTypes.INTEGER,
     work_type_id: DataTypes.INTEGER,
   }, {
     sequelize,

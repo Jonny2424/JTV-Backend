@@ -10,7 +10,7 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Work_Type.hasMany(models.Request, {foreignKey: "workTypeId"})
+      Work_Type.hasMany(models.Request, {foreignKey: "work_type_id"})
       Work_Type.hasMany(models.Work_Order, {foreignKey: "workTypeId"})
     }
   };
