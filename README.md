@@ -108,7 +108,6 @@ This simple line of code helped me see state in real time while making forms.
 
 ```
 <pre>{JSON.stringify(values, null, 4)}</pre>
-
 ```
 
 ## Hurdles
