@@ -104,9 +104,17 @@ Estimated time frames of when we want certain goals to be completed by.
 
 ## Code Snippet  
 
-I am proud of this code... 
+This simple line of code helped me see state in real time while making forms.
 
 ```
-Insert code here
+<pre>{JSON.stringify(values, null, 4)}</pre>
 
 ```
+
+## Hurdles
+This project had a few difficulties. I have always wanted to create my own website for a side business. In the past, I used wordpress. Although that worked, I didn't actually build it from scratch. The a big issue for me was narrowing down all the features I wanted. Then once found, focusing on just one at a time was difficult. Calling data from my backend was propably the most challenging part for me. There are so many steps involved with setting up the backend up to then correctly talk with the frontend. Overall, this final project was a great learning experience.
+
+
+
+
+
