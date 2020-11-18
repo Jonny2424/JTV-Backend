@@ -6,6 +6,10 @@ The goal of this project was to make a full stack app using tools learned from t
 
 JTV Auto Detailing is a site for car owners who have a passion for protecting their vehicle. We at JTV share that same passion and work to preserve the beauty of your ride. We offer comprehensive yet flexible detailing, protection, and customization services to suit our clients’ needs, and we do it with unequaled quality, passion, and professionalism. Whether you are interested in a restorative level of detailing, looking to restore the original paint on your classic muscle car, or you simply wish to preserve and protect the finish on your daily driver, JTV Auto Detailing will meet your goals and expectations with passion, precision, and perfection! We look forward to exceeding your expectations
 
+## Screenshot
+
+![Homepage](https://i.imgur.com/7krd2nJ.png)
+
 ## Project Links
 
 Links to navigate to the project repository and deployed website link. 
