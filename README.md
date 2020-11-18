@@ -42,7 +42,7 @@ Inserted below is a navigational link to a PDF slideshow of our wireframes for o
 
 - Wireframes and Website Architecture = [JTV Auto Detailing Wireframes](https://docs.google.com/presentation/d/1hKDQry8jhGIIsAzt4RU7GAvs33cfLsOFxE6a6iSOaH0/edit?usp=sharing)
 
-## ERD
+## MVP ERD
 
 ![MVP ERD](https://i.imgur.com/DEFSYi3.png)
 
@@ -76,6 +76,7 @@ Below are links to navigate to our project repository and deployed website link.
 - Improve overall styling on website. 
 - Incorporate a map so users can view distance from detailer.
 
+## Post MVP ERD
 ![Post MVP ERD](https://i.imgur.com/aTd8hUC.png)
 
 
